@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+:root {
+    --color-1: #1CD1B0;
+    --color-2: #00669F;
+    --color-3: #001D2D;
+}
+
+.forms {
+    display: flex;
+    background: var(--color-3);
+    flex-direction: row-reverse;
+}
+
+div.forms a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 15px;   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    position: sticky;
+    top: -40px;
+    z-index: 10;
+}
+
+h2 {
+    background: var(--color-1);
+    line-height: 40px;
+    padding-left: 10px;
+    font-weight: lighter;
+}
+
+h1 {
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding: 20px 18px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.formulario p {
+    margin: 10px;
+}
+
+.formu {
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+::placeholder {
+    color: black;
+    margin: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 94.5%;
+    position: relative;
+    left: 10px;
+    margin: 8px 0;
+}
+
+.botones {
+    display: flex;
+    position: relative;
+    right: 7px;
+}
+
+.entrar {
+    border-radius: 24px;
+    border: none;
+    background-color: #1CD1B0;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.resetear {
+    border-radius: 24px;
+    border: none;
+    background-color: #888888;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin-top: 150px;
+    background: var(--color-2);
+    color: #fff;
+    padding: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
